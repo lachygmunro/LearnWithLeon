@@ -1,0 +1,51 @@
+body {
+    background: rgba(150,210,233,1);
+    border: 3px solid rgba(95,206,100,1);
+}
+
+h1{
+    color: white;
+    
+}
+
+nav{
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+}
+
+nav h1 {
+    align-self: center;
+}
+
+nav section a {
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+nav section a + a {
+    color: rgba(95,206,172,1);
+    border-left: 2px solid rgba(141,154,158,1);
+}
+
+img {
+    width: 20%;
+}
+
+main {
+    display: flexbox;
+}
+
+main > p {
+    width: 70%;
+}
+
+footer a {
+    color: rgba(95,206,172,1);
+    border-right: 2px solid rgba(141,154,158,1);
+}
+
+footer a:last-child{
+    border-right: none;
+}
